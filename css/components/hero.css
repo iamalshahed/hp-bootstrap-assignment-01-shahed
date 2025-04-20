@@ -13,3 +13,7 @@
     margin-block-start: 1rem;
     margin-block-end: 2rem;
 }
+
+.hero .hero_content .carousel .carousel-inner .carousel-item img{
+    border-radius: .9375rem;
+}
