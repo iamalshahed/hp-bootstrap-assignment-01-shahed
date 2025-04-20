@@ -1,0 +1,15 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.hero .hero_content .hero_text h1{
+    font-size: 4.625rem;
+    line-height: 5.75rem;
+}
+
+.hero .hero_content .hero_text p{
+    font-size: 1.125rem;
+    margin-block-start: 1rem;
+    margin-block-end: 2rem;
+}
