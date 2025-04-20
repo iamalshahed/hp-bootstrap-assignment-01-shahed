@@ -1,0 +1,14 @@
+.price .price__content {
+  padding-block: 5rem;
+}
+
+.price_card_wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 1rem;
+}
+
+.price_card_wrapper .price_card{
+    padding: 2.3125rem 1.875rem;
+    border-radius: .9375rem;
+}
