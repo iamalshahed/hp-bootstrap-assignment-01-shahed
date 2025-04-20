@@ -1,0 +1,69 @@
+/* --------------------------- *\
+ * #Google Fonts 
+\* --------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+
+
+/* --------------------------- *\
+ * #imporst other css files 
+\* --------------------------- */
+
+
+
+
+
+/* --------------------------- *\
+ * #Root 
+\* --------------------------- */
+
+:root{
+    --orange: #FE8C45;
+    --light_black: #333333;
+    --black: #000;
+    --vaiolate: #8A47F6;
+    --white: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Outfit", sans-serif !important;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button{
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    border: none;
+    outline: none;
+    padding: 1.125rem 2.875rem;
+    border-radius: 30px;
+    background: var(--orange);
+    color: var(--white);
+    transition: background 0.3s ease;
+
+    &:hover{
+        background: #f37b30;
+    }
+}
+
+.highlight_text{
+    color: var(--vaiolate);
+}
