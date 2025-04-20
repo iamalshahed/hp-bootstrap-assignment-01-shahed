@@ -2,3 +2,12 @@
     width: 100%;
     padding-block: 4.25rem;
 }
+
+.about_us_content .about_text h1{
+    font-size: 3rem;
+    margin-block: 1.5625rem;
+}
+
+.about_us .about_us_content .about_portfolio{
+    margin-top: 1.5625rem;
+}
