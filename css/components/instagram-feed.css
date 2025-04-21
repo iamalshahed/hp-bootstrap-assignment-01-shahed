@@ -11,6 +11,6 @@
   transition: 0.3s;
 }
 
-.instragram-area .title {
-  font-size: 48px;
+.instragram-area .title, .que-area .que-title .title {
+  font-size: 3rem;
 }
