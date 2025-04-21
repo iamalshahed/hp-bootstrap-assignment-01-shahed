@@ -1,3 +1,7 @@
 .navbar .navbar-nav li a{
     font-family: var(--ff-quick-sand) !important;
 }
+
+img.nav_logo {
+    max-width: 180px;
+}

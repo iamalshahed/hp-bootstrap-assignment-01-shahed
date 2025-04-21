@@ -5,7 +5,6 @@
 
 .hero .hero_content .hero_text h1{
     font-size: 4.625rem;
-    line-height: 5.75rem;
 }
 
 .hero .hero_content .hero_text p{
@@ -16,4 +15,21 @@
 
 .hero .hero_content .carousel .carousel-inner .carousel-item img{
     border-radius: .9375rem;
+}
+
+.hero_text_width{
+    position: absolute;
+    top: 50%;
+    right: 37%;
+    transform: translateY(-50%);
+    width: 30%;
+    height: 30px;
+    border-radius: 50px;
+    background: var(--vaiolate);
+}
+
+@media (max-width: 600px) {
+    .hero .hero_content .hero_text h1{
+        font-size: 1.875rem;
+    }
 }
