@@ -1,0 +1,16 @@
+.instragram-area {
+  padding: 130px 0;
+}
+
+.instragram-area img {
+  width: 100%;
+}
+
+.instragram-area .inst-item {
+  margin-bottom: 24px;
+  transition: 0.3s;
+}
+
+.instragram-area .title {
+  font-size: 48px;
+}
